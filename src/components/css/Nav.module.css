@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Open+Sans:wght@400;600;700&family=Rubik+Bubbles&display=swap");
+
+body {
+  background-color: black;
+}
+.nav {
+  color: white;
+  border-bottom: 1px solid rgb(68, 67, 67);
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: bold;
+  position: relative;
+}
+.menu {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+.menu li {
+  margin: 1rem;
+}
+.menu li a {
+  text-decoration: none;
+  color: white;
+  padding: 0.2rem 0.7rem;
+  border-radius: 4px;
+}
+.menu li a:hover {
+  background-color: lightgreen;
+  color: black;
+  transition: all ease 0.5s;
+}
+
+@media screen and (max-width: 768px) {
+  .nav {
+    display: none;
+  }
+}

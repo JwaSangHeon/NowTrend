@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Rubik+Bubbles&display=swap");
+
+body {
+  color: white;
+  font-family: "Noto Sans KR", sans-serif;
+}
+.container {
+  margin-top: 1rem;
+  width: 40%;
+}
+.chart {
+  margin: 0 0.8rem 0 1.2rem;
+}
+/* .graph {
+  float: right;
+  margin-top: 1rem;
+  width: 55vw;
+  background-color: blue;
+} */
