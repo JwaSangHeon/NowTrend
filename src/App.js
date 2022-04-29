@@ -1,4 +1,3 @@
-import "./App.css";
 import Header from "./components/Header";
 import Nav from "./components/Nav";
 import Main from "./components/Main";
@@ -6,15 +5,14 @@ import { useState } from "react";
 import MobileNav from "./components/MobileNav";
 
 function App() {
-  const [menuBtn, setMenuBtn] = useState(false);
+  const [menuBtns, setMenuBtns] = useState(false);
   const onClickBtn = () => {
-    menuBtn ? setMenuBtn(false) : setMenuBtn(true);
+    menuBtns ? setMenuBtns(false) : setMenuBtns(true);
   };
   return (
     <div>
       <Header onClickBtn={onClickBtn} />
-      <Nav />
-      {menuBtn ? <MobileNav /> : null}
+      {menuBtns ? <MobileNav /> : <Nav />}
       <Main />
     </div>
   );

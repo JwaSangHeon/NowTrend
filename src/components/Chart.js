@@ -4,9 +4,9 @@ import { Chart as ChartJS } from "chart.js/auto";
 
 const Chart = ({ chartData, options }) => {
   return (
-    <>
+    <div>
       <Bar data={chartData} options={options} />
-    </>
+    </div>
   );
 };
 

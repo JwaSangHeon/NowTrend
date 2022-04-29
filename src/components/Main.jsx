@@ -20,16 +20,22 @@ function Main() {
         data: datas.map((data) => data.frequency),
         backgroundColor: "lightgreen",
         indexAxis: "y",
+        maxBarThickness: 50,
+        hoverBackgroundColor: "salmon",
       },
     ],
   });
   const [options, setOptions] = useState({
+    responsive: true,
+    aspectRatio: 1,
+    maintainAspectRatio: true,
+
     plugins: {
       legend: {
         labels: {
-          color: "salmon",
+          color: "white",
           font: {
-            size: 18,
+            size: 16,
           },
         },
       },

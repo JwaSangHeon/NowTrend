@@ -16,6 +16,7 @@ function Header({ onClickBtn }) {
             <ImMenu onClick={onClickBtn} cursor="pointer" size="1.5rem" />
           </div>
         </div>
+        {/* 올라가기 버튼 */}
         <div className={styles.toTop}>
           <a href="#">
             <BsArrowUpSquareFill size="2rem" />
