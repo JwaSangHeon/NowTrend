@@ -1,6 +1,7 @@
 import styles from "../components/css/Header.module.css";
 import { BsArrowUpSquareFill } from "react-icons/bs";
 import { ImMenu } from "react-icons/im";
+import { Link } from "react-router-dom";
 
 function Header({ onClickBtn }) {
   return (
@@ -8,9 +9,9 @@ function Header({ onClickBtn }) {
       <div className={styles.header}>
         <div className={styles.logoAndMenu}>
           <div className={styles.logo}>
-            <a href="#">
+            <Link to="/">
               Now<span className={styles.trend}>Trend</span>
-            </a>
+            </Link>
           </div>
           <div className={styles.menuIcon}>
             <ImMenu onClick={onClickBtn} cursor="pointer" size="1.5rem" />

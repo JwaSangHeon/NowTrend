@@ -29,7 +29,7 @@ function Home() {
   const [options, setOptions] = useState({
     responsive: true,
     aspectRatio: 1,
-    maintainAspectRatio: true,
+    maintainAspectRatio: datas.length > 4 ? true : false,
 
     plugins: {
       legend: {
@@ -46,7 +46,7 @@ function Home() {
   return (
     <>
       <div className={styles.chart}>
-        <h2 className={styles.title}>현재 단어별 빈도 수</h2>
+        <h2 className={styles.title}>종합</h2>
         <Chart chartData={userData} options={options} />
       </div>
       <div className={styles.sliderContainer}>
