@@ -1,4 +1,5 @@
 import styles from "../components/css/Nav.module.css";
+import { Link } from "react-router-dom";
 
 function Nav() {
   return (
@@ -6,19 +7,19 @@ function Nav() {
       <nav className={styles.nav}>
         <ul className={styles.menu}>
           <li>
-            <a href="#">종합</a>
+            <Link to="/">종합</Link>
           </li>
           <li>
-            <a href="#">기업테크블로그</a>
+            <Link to="/tech">기업테크블로그</Link>
           </li>
           <li>
-            <a href="#">Velog</a>
+            <Link to="/velog">Velog</Link>
           </li>
           <li>
-            <a href="#">IT뉴스</a>
+            <Link to="/itnews">IT뉴스</Link>
           </li>
           <li>
-            <a href="#">취업사이트</a>
+            <Link to="/jobsite">취업사이트</Link>
           </li>
         </ul>
       </nav>

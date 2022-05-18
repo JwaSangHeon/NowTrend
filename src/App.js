@@ -1,20 +1,21 @@
-import Header from "./components/Header";
-import Nav from "./components/Nav";
-import Main from "./components/Main";
-import { useState } from "react";
-import MobileNav from "./components/MobileNav";
-
+import Home from "./components/Home";
+import { Route, Routes } from "react-router-dom";
+import Tech from "./components/Tech";
+import Layout from "./components/Layout";
+import JobSite from "./components/JobSite";
+import Velog from "./components/Velog";
+import Itnews from "./components/Itnews";
 function App() {
-  const [menuBtns, setMenuBtns] = useState(false);
-  const onClickBtn = () => {
-    menuBtns ? setMenuBtns(false) : setMenuBtns(true);
-  };
   return (
-    <div>
-      <Header onClickBtn={onClickBtn} />
-      {menuBtns ? <MobileNav /> : <Nav />}
-      <Main />
-    </div>
+    <Routes>
+      <Route path="/" element={<Layout />}>
+        <Route path="/" element={<Home />} />
+        <Route path="/tech" element={<Tech />} />
+        <Route path="/jobsite" element={<JobSite />} />
+        <Route path="/velog" element={<Velog />} />
+        <Route path="/itnews" element={<Itnews />} />
+      </Route>
+    </Routes>
   );
 }
 

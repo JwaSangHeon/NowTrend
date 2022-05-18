@@ -7,8 +7,9 @@ import ITnewsLinkSlider from "./ITnewsLinkSlider";
 import VelogLinkSlider from "./VelogLinkSlider";
 import TechBlogLinkSlider from "./TechBlogLinkSlider";
 import EmploymentLinkSlider from "./EmploymentLinkSlider";
+import Footer from "./Footer";
 
-function Main() {
+function Home() {
   const [datas, setDatas] = useState(
     UserData.sort((a, b) => b.frequency - a.frequency)
   );
@@ -20,7 +21,7 @@ function Main() {
         data: datas.map((data) => data.frequency),
         backgroundColor: "lightgreen",
         indexAxis: "y",
-        maxBarThickness: 50,
+        maxBarThickness: 35,
         hoverBackgroundColor: "salmon",
       },
     ],
@@ -45,7 +46,7 @@ function Main() {
   return (
     <>
       <div className={styles.chart}>
-        <h2>현재 단어별 빈도 수</h2>
+        <h2 className={styles.title}>현재 단어별 빈도 수</h2>
         <Chart chartData={userData} options={options} />
       </div>
       <div className={styles.sliderContainer}>
@@ -54,9 +55,10 @@ function Main() {
         <TechBlogLinkSlider title="기업Tech블로그" />
         <EmploymentLinkSlider title="채용사이트" />
       </div>
-      <div style={{ height: 500 }}></div>
+      <hr />
+      <Footer />
     </>
   );
 }
 
-export default Main;
+export default Home;

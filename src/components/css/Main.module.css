@@ -2,22 +2,44 @@
 
 body {
   color: white;
-  font-family: "Noto Sans KR", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 .container {
   margin-top: 1rem;
   width: 40%;
+}
+
+.title {
+  font-size: 2rem;
 }
 .chart {
   margin: 1.2rem 0.8rem;
 }
 .chart h2 {
   margin: 0 5rem 1.2rem;
+  font-size: 1.5rem;
 }
 .sliderContainer {
-  width: 60%;
+  width: 65%;
   margin: 30px auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+.sliderContainer h2 {
+  margin: 1rem 0;
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .chart h2 {
+    font-size: 16px;
+    margin: 0 2rem;
+  }
+  .sliderContainer {
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
 }
