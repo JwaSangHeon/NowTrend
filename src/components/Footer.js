@@ -3,9 +3,11 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <>
-      <div className="container" style={{ width: "85%" }}>
+      <div className="container" style={{ width: "90%" }}>
         <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
-          <p className="col-md-4 mb-0 text-muted">&copy; 2022 Company, Inc</p>
+          <p className="col-md-4 mb-0 text-muted">
+            &copy; 2022 제주대 캡스톤, 5조
+          </p>
 
           <a
             href="/"
