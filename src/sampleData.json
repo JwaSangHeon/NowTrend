@@ -1,15 +1,254 @@
 [
-  { "word": "블록체인", "classification": "itnews", "frequency": 302 },
-  { "word": "NFT", "classification": "velog", "frequency": 116 },
-  { "word": "메타버스", "classification": "tech", "frequency": 272 },
-  { "word": "React", "classification": "jobsite", "frequency": 1100 },
-  { "word": "AI", "classification": "itnews", "frequency": 700 },
-  { "word": "오토메틱시스템", "classification": "itnews", "frequency": 57 },
-  { "word": "VR", "classification": "itnews", "frequency": 402 },
-  { "word": "Spring", "classification": "jobsite", "frequency": 902 },
-  { "word": "Python", "classification": "jobsite", "frequency": 1000 },
-  { "word": "Typescript", "classification": "tech", "frequency": 600 },
-  { "word": "Node.js", "classification": "tech", "frequency": 409 },
-  { "word": "Typescript", "classification": "velog", "frequency": 600 },
-  { "word": "Node.js", "classification": "velog", "frequency": 409 }
+  {
+    "year": 2022,
+    "word": "블록체인",
+    "classification": "itnews",
+    "frequency": 302
+  },
+  { "year": 2021, "word": "NFT", "classification": "velog", "frequency": 116 },
+  {
+    "year": 2020,
+    "word": "메타버스",
+    "classification": "community",
+    "frequency": 272
+  },
+  {
+    "year": 2019,
+    "word": "React",
+    "classification": "report",
+    "frequency": 1100
+  },
+  { "year": 2022, "word": "AI", "classification": "itnews", "frequency": 700 },
+  {
+    "year": 2017,
+    "word": "오토메틱시스템",
+    "classification": "itnews",
+    "frequency": 57
+  },
+  { "year": 2021, "word": "VR", "classification": "itnews", "frequency": 402 },
+  {
+    "year": 2018,
+    "word": "Spring",
+    "classification": "report",
+    "frequency": 902
+  },
+  {
+    "year": 2017,
+    "word": "Python",
+    "classification": "report",
+    "frequency": 1000
+  },
+  {
+    "year": 2019,
+    "word": "Typescript",
+    "classification": "community",
+    "frequency": 600
+  },
+  {
+    "year": 2021,
+    "word": "Node.js",
+    "classification": "community",
+    "frequency": 409
+  },
+  {
+    "year": 2019,
+    "word": "Typescript",
+    "classification": "velog",
+    "frequency": 600
+  },
+  {
+    "year": 2018,
+    "word": "Node.js",
+    "classification": "velog",
+    "frequency": 409
+  },
+  {
+    "year": 2022,
+    "word": "블록체인",
+    "classification": "itnews",
+    "frequency": 302
+  },
+  { "year": 2021, "word": "NFT", "classification": "velog", "frequency": 116 },
+  {
+    "year": 2020,
+    "word": "메타버스",
+    "classification": "community",
+    "frequency": 272
+  },
+  {
+    "year": 2019,
+    "word": "React",
+    "classification": "report",
+    "frequency": 1100
+  },
+  { "year": 2022, "word": "AI", "classification": "itnews", "frequency": 700 },
+  {
+    "year": 2017,
+    "word": "오토메틱시스템",
+    "classification": "itnews",
+    "frequency": 57
+  },
+  { "year": 2021, "word": "VR", "classification": "itnews", "frequency": 402 },
+  {
+    "year": 2018,
+    "word": "Spring",
+    "classification": "report",
+    "frequency": 902
+  },
+  {
+    "year": 2017,
+    "word": "Python",
+    "classification": "report",
+    "frequency": 1000
+  },
+  {
+    "year": 2019,
+    "word": "Typescript",
+    "classification": "community",
+    "frequency": 600
+  },
+  {
+    "year": 2021,
+    "word": "Node.js",
+    "classification": "community",
+    "frequency": 409
+  },
+  {
+    "year": 2019,
+    "word": "Typescript",
+    "classification": "velog",
+    "frequency": 600
+  },
+  {
+    "year": 2018,
+    "word": "Node.js",
+    "classification": "velog",
+    "frequency": 409
+  },
+  {
+    "year": 2022,
+    "word": "블록체인",
+    "classification": "itnews",
+    "frequency": 302
+  },
+  { "year": 2021, "word": "NFT", "classification": "velog", "frequency": 116 },
+  {
+    "year": 2020,
+    "word": "메타버스",
+    "classification": "community",
+    "frequency": 272
+  },
+  {
+    "year": 2019,
+    "word": "React",
+    "classification": "report",
+    "frequency": 1100
+  },
+  { "year": 2022, "word": "AI", "classification": "itnews", "frequency": 700 },
+  {
+    "year": 2017,
+    "word": "오토메틱시스템",
+    "classification": "itnews",
+    "frequency": 57
+  },
+  { "year": 2021, "word": "VR", "classification": "itnews", "frequency": 402 },
+  {
+    "year": 2018,
+    "word": "Spring",
+    "classification": "report",
+    "frequency": 902
+  },
+  {
+    "year": 2017,
+    "word": "Python",
+    "classification": "report",
+    "frequency": 1000
+  },
+  {
+    "year": 2019,
+    "word": "Typescript",
+    "classification": "community",
+    "frequency": 600
+  },
+  {
+    "year": 2021,
+    "word": "Node.js",
+    "classification": "community",
+    "frequency": 409
+  },
+  {
+    "year": 2019,
+    "word": "Typescript",
+    "classification": "velog",
+    "frequency": 600
+  },
+  {
+    "year": 2018,
+    "word": "Node.js",
+    "classification": "velog",
+    "frequency": 409
+  },
+  {
+    "year": 2022,
+    "word": "블록체인",
+    "classification": "itnews",
+    "frequency": 302
+  },
+  { "year": 2021, "word": "NFT", "classification": "velog", "frequency": 116 },
+  {
+    "year": 2020,
+    "word": "메타버스",
+    "classification": "community",
+    "frequency": 272
+  },
+  {
+    "year": 2019,
+    "word": "React",
+    "classification": "report",
+    "frequency": 1100
+  },
+  { "year": 2022, "word": "AI", "classification": "itnews", "frequency": 700 },
+  {
+    "year": 2017,
+    "word": "오토메틱시스템",
+    "classification": "itnews",
+    "frequency": 57
+  },
+  { "year": 2021, "word": "VR", "classification": "itnews", "frequency": 402 },
+  {
+    "year": 2018,
+    "word": "Spring",
+    "classification": "report",
+    "frequency": 902
+  },
+  {
+    "year": 2017,
+    "word": "Python",
+    "classification": "report",
+    "frequency": 1000
+  },
+  {
+    "year": 2019,
+    "word": "Typescript",
+    "classification": "community",
+    "frequency": 600
+  },
+  {
+    "year": 2021,
+    "word": "Node.js",
+    "classification": "community",
+    "frequency": 409
+  },
+  {
+    "year": 2019,
+    "word": "Typescript",
+    "classification": "velog",
+    "frequency": 600
+  },
+  {
+    "year": 2018,
+    "word": "Node.js",
+    "classification": "velog",
+    "frequency": 409
+  }
 ]

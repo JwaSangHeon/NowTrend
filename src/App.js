@@ -1,18 +1,18 @@
 import Home from "./components/Home";
 import { Route, Routes } from "react-router-dom";
-import Tech from "./components/Tech";
+import Community from "./components/Community";
 import Layout from "./components/Layout";
-import JobSite from "./components/JobSite";
-import Velog from "./components/Velog";
 import Itnews from "./components/Itnews";
+import Report from "./components/Report";
+import Intro from "./components/Intro";
 function App() {
   return (
     <Routes>
       <Route path="/" element={<Layout />}>
         <Route path="/" element={<Home />} />
-        <Route path="/tech" element={<Tech />} />
-        <Route path="/jobsite" element={<JobSite />} />
-        <Route path="/velog" element={<Velog />} />
+        <Route path="/community" element={<Community />} />
+        <Route path="/report" element={<Report />} />
+        <Route path="/intro" element={<Intro />} />
         <Route path="/itnews" element={<Itnews />} />
       </Route>
     </Routes>

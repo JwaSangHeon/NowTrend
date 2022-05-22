@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <>
-      <div className="container" style={{ width: "90%" }}>
+      <div className="container">
         <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
           <p className="col-md-4 mb-0 text-muted">
             &copy; 2022 제주대 캡스톤, 5조
@@ -17,19 +17,19 @@ const Footer = () => {
           </a>
 
           <ul className="nav col-md-4 justify-content-end">
+            {/* <li className="nav-item">
+              <Link to="/intro" className="nav-link px-2 text-muted">
+                Intro
+              </Link>
+            </li> */}
             <li className="nav-item">
               <Link to="/" className="nav-link px-2 text-muted">
                 Home
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/tech" className="nav-link px-2 text-muted">
-                Tech
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link to="/velog" className="nav-link px-2 text-muted">
-                Velog
+              <Link to="/community" className="nav-link px-2 text-muted">
+                Community
               </Link>
             </li>
             <li className="nav-item">
@@ -38,8 +38,8 @@ const Footer = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/jobsite" className="nav-link px-2 text-muted">
-                Jobsite
+              <Link to="/report" className="nav-link px-2 text-muted">
+                Report
               </Link>
             </li>
           </ul>
