@@ -9,6 +9,7 @@ import EmploymentLinkSlider from "./EmploymentLinkSlider";
 import Footer from "./Footer";
 import styled from "styled-components";
 import { useEffect } from "react";
+import Synonym from "./Synonym";
 
 const YearSelect = styled.div`
   display: flex;
@@ -89,6 +90,9 @@ function Home() {
         </div>
         <h2 className={styles.title}>IT뉴스</h2>
         <Chart chartData={userData} options={options} />
+      </div>
+      <div>
+        <Synonym />
       </div>
       <div className={styles.sliderContainer}>
         <VelogLinkSlider title="Velog" />
