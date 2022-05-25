@@ -14,6 +14,7 @@ import Synonym from "./Synonym";
 
 const YearSelect = styled.div`
   display: flex;
+  margin: 0 40px;
   float: right;
   h2 {
     margin-right: 1rem;
@@ -86,7 +87,7 @@ const Report = () => {
             </select>
           </div>
         </YearSelect>
-        <div>
+        <div style={{ margin: "2rem" }}>
           Selected: <b>{selected}</b>
         </div>
         <h2 className={styles.title}>보고서</h2>

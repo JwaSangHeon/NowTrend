@@ -12,6 +12,7 @@ import { useEffect } from "react";
 import Synonym from "./Synonym";
 
 const YearSelect = styled.div`
+  margin: 0 40px;
   display: flex;
   float: right;
   h2 {
@@ -85,7 +86,7 @@ function Home() {
             </select>
           </div>
         </YearSelect>
-        <div>
+        <div style={{ margin: "2rem" }}>
           Selected: <b>{selected}</b>
         </div>
         <h2 className={styles.title}>종합</h2>
