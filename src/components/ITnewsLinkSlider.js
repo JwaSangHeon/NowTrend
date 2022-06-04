@@ -24,7 +24,7 @@ const ITnewsLinkSlider = ({ title }) => {
   };
   return (
     <div className={styles.container} style={{ width: 300, height: 300 }}>
-      <h2>{title}</h2>
+      <h2 className={styles.title}>{title}</h2>
       <Slider {...settings}>
         <div>
           <a href="https://www.khan.co.kr/economy/it-electronic/articles">

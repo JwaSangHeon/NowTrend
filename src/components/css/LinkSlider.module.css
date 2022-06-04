@@ -1,6 +1,9 @@
 .container {
   margin: 0 auto;
 }
+.title {
+  font-family: "Kdam Thmor Pro", sans-serif;
+}
 
 .linkImg {
   width: 300;

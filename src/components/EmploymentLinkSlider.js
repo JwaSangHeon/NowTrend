@@ -19,7 +19,7 @@ const EmploymentLinkSlider = ({ title }) => {
   };
   return (
     <div className={styles.container} style={{ width: 300, height: 300 }}>
-      <h2>{title}</h2>
+      <h2 className={styles.title}>{title}</h2>
       <Slider {...settings}>
         <div>
           <a href="https://programmers.co.kr/job?utm_source=google&utm_medium=cpc&utm_campaign=brand_job_pc&gclid=Cj0KCQjw3v6SBhCsARIsACyrRAlBmpfmXyjj4n7WfG9cU47V0ZIGaz-q7t3RonMiK6s3NWn4HnoEGDsaAtywEALw_wcB">

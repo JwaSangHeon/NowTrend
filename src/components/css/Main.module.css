@@ -8,7 +8,9 @@ body {
   margin-top: 1rem;
   width: 40%;
 }
-
+.title {
+  font-family: "Kdam Thmor Pro", sans-serif;
+}
 .chart {
   margin: 1.2rem 0.8rem;
 }

@@ -11,6 +11,7 @@ const Menu = styled.div`
 
 const MenuTitle = styled.h1`
   padding: 16px;
+  font-family: "Kdam Thmor Pro", sans-serif;
 `;
 
 const ArrowBox = styled.p`
