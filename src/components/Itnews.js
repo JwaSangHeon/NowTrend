@@ -37,7 +37,7 @@ function Home() {
         label: "빈도",
         data: datas.map((data) => data.frequency),
         backgroundColor: "lightgreen",
-        indexAxis: "y",
+        indexAxis: "x",
         maxBarThickness: 35,
         hoverBackgroundColor: "salmon",
       },
@@ -47,7 +47,19 @@ function Home() {
   const options = {
     responsive: true,
     aspectRatio: 1,
-    maintainAspectRatio: datas.length > 4 ? true : false,
+    // maintainAspectRatio: datas.length > 4 ? true : false,
+    scales: {
+      yAxis: {
+        ticks: {
+          color: "white",
+        },
+      },
+      xAxis: {
+        ticks: {
+          color: "white",
+        },
+      },
+    },
     plugins: {
       legend: {
         labels: {
