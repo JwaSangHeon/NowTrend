@@ -2,7 +2,6 @@ import React from "react";
 import { useState } from "react";
 import styles from "../components/css/Main.module.css";
 import Chart from "./Chart";
-import UserData from "../sampleData.json";
 import ITnewsLinkSlider from "./ITnewsLinkSlider";
 import VelogLinkSlider from "./VelogLinkSlider";
 import TechBlogLinkSlider from "./TechBlogLinkSlider";
@@ -25,11 +24,23 @@ const Report = () => {
   const selectList = [2022, 2021, 2020, 2019, 2018, 2017];
   const [selected, setSelected] = useState(2022);
 
-  const [datas, setDatas] = useState(
-    UserData.filter((keyword) => keyword.classification === "report")
-      .sort((a, b) => b.frequency - a.frequency)
-      .filter((ele) => ele.year === selected)
-  );
+  const [loading, setLoading] = useState(true);
+
+  const [datas, setDatas] = useState([]);
+
+  useEffect(() => {
+    fetch(`https://storageforstatejson.herokuapp.com/router/output`)
+      .then((res) => res.json())
+      .then((data) => {
+        setDatas(
+          JSON.parse(data[0].jsontable)
+            .sort((a, b) => b.frequency - a.frequency)
+            .filter((ele) => ele.year === selected)
+            .filter((keyword) => keyword.classification === "report")
+        );
+        setLoading(false);
+      });
+  }, [selected]);
 
   const userData = {
     labels: datas.map((data) => data.word),
@@ -48,7 +59,6 @@ const Report = () => {
   const options = {
     responsive: true,
     aspectRatio: 1,
-    // maintainAspectRatio: datas.length > 4 ? true : false,
     scales: {
       yAxis: {
         ticks: {
@@ -76,13 +86,6 @@ const Report = () => {
   const handleSelect = (e) => {
     setSelected(+e.target.value);
   };
-  useEffect(() => {
-    setDatas(
-      UserData.sort((a, b) => b.frequency - a.frequency)
-        .filter((ele) => ele.year === selected)
-        .filter((keyword) => keyword.classification === "report")
-    );
-  }, [selected]);
 
   return (
     <>
@@ -103,7 +106,11 @@ const Report = () => {
           Selected: <b>{selected}</b>
         </div>
         <h2 className={styles.title}>보고서</h2>
-        <Chart chartData={userData} options={options} />
+        {loading ? (
+          <div>loading...</div>
+        ) : (
+          <Chart chartData={userData} options={options} />
+        )}
       </div>
       <div>
         <Synonym />

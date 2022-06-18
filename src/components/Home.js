@@ -1,7 +1,7 @@
 import { useState } from "react";
 import styles from "../components/css/Main.module.css";
 import Chart from "./Chart";
-import UserData from "../sampleData.json";
+// import UserData from "../sampleData.json";
 import ITnewsLinkSlider from "./ITnewsLinkSlider";
 import VelogLinkSlider from "./VelogLinkSlider";
 import TechBlogLinkSlider from "./TechBlogLinkSlider";
@@ -24,11 +24,22 @@ function Home() {
   const selectList = [2022, 2021, 2020, 2019, 2018, 2017];
   const [selected, setSelected] = useState(2022);
 
-  const [datas, setDatas] = useState(
-    UserData.sort((a, b) => b.frequency - a.frequency).filter(
-      (ele) => ele.year === selected
-    )
-  );
+  const [loading, setLoading] = useState(true);
+
+  const [datas, setDatas] = useState([]);
+
+  useEffect(() => {
+    fetch(`https://storageforstatejson.herokuapp.com/router/output`)
+      .then((res) => res.json())
+      .then((data) => {
+        setDatas(
+          JSON.parse(data[0].jsontable)
+            .sort((a, b) => b.frequency - a.frequency)
+            .filter((ele) => ele.year === selected)
+        );
+        setLoading(false);
+      });
+  }, [selected]);
 
   const userData = {
     labels: datas.map((data) => data.word),
@@ -38,7 +49,7 @@ function Home() {
         data: datas.map((data) => data.frequency),
         backgroundColor: "lightgreen",
         indexAxis: "x",
-        maxBarThickness: 35,
+        maxBarThickness: 30,
         hoverBackgroundColor: "salmon",
       },
     ],
@@ -47,7 +58,6 @@ function Home() {
   const options = {
     responsive: true,
     aspectRatio: 1,
-    // maintainAspectRatio: datas.length > 4 ? true : false,
     scales: {
       yAxis: {
         ticks: {
@@ -75,13 +85,6 @@ function Home() {
   const handleSelect = (e) => {
     setSelected(+e.target.value);
   };
-  useEffect(() => {
-    setDatas(
-      UserData.sort((a, b) => b.frequency - a.frequency).filter(
-        (ele) => ele.year === selected
-      )
-    );
-  }, [selected]);
 
   return (
     <>
@@ -102,7 +105,11 @@ function Home() {
           Selected: <b>{selected}</b>
         </div>
         <h2 className={styles.title}>종합</h2>
-        <Chart chartData={userData} options={options} />
+        {loading ? (
+          <div>loading...</div>
+        ) : (
+          <Chart chartData={userData} options={options} />
+        )}
       </div>
       <div>
         <Synonym />
