@@ -10,7 +10,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import React from "react";
-import styles from "../components/css/LinkSlider.module.css";
+import styles from "./css/LinkSlider.module.css";
 
 const TechBlogLinkSlider = ({ title }) => {
   const imgs = [tech1, tech2, tech3, tech4, tech5, tech6];

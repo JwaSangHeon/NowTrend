@@ -1,26 +1,26 @@
+import React from "react";
 import { useState } from "react";
-import styles from "../components/css/Main.module.css";
+import styles from "./css/Main.module.css";
 import Chart from "./Chart";
-// import UserData from "../sampleData.json";
 import ITnewsLinkSlider from "./ITnewsLinkSlider";
 import VelogLinkSlider from "./VelogLinkSlider";
 import TechBlogLinkSlider from "./TechBlogLinkSlider";
 import EmploymentLinkSlider from "./EmploymentLinkSlider";
 import Footer from "./Footer";
-import styled from "styled-components";
 import { useEffect } from "react";
+import styled from "styled-components";
 import Synonym from "./Synonym";
 
 const YearSelect = styled.div`
-  margin: 0 40px;
   display: flex;
+  margin: 0 40px;
   float: right;
   h2 {
     margin-right: 1rem;
   }
 `;
 
-function Home() {
+const Report = () => {
   const selectList = [2022, 2021, 2020, 2019, 2018, 2017];
   const [selected, setSelected] = useState(2022);
 
@@ -36,6 +36,7 @@ function Home() {
           JSON.parse(data[0].jsontable)
             .sort((a, b) => b.frequency - a.frequency)
             .filter((ele) => ele.year === selected)
+            .filter((keyword) => keyword.classification === "report")
         );
         setLoading(false);
       });
@@ -49,7 +50,7 @@ function Home() {
         data: datas.map((data) => data.frequency),
         backgroundColor: "lightgreen",
         indexAxis: "x",
-        maxBarThickness: 30,
+        maxBarThickness: 35,
         hoverBackgroundColor: "salmon",
       },
     ],
@@ -104,7 +105,7 @@ function Home() {
         <div style={{ margin: "2rem" }}>
           Selected: <b>{selected}</b>
         </div>
-        <h2 className={styles.title}>종합</h2>
+        <h2 className={styles.title}>보고서</h2>
         {loading ? (
           <div>loading...</div>
         ) : (
@@ -124,6 +125,6 @@ function Home() {
       <Footer />
     </>
   );
-}
+};
 
-export default Home;
+export default Report;

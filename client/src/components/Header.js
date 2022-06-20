@@ -1,4 +1,4 @@
-import styles from "../components/css/Header.module.css";
+import styles from "./css/Header.module.css";
 import { BsArrowUpSquareFill } from "react-icons/bs";
 import { ImMenu } from "react-icons/im";
 import { Link } from "react-router-dom";

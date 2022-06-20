@@ -1,4 +1,4 @@
-import styles from "../components/css/MobileNav.module.css";
+import styles from "./css/MobileNav.module.css";
 import { Link } from "react-router-dom";
 
 function MobileNav() {

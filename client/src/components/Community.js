@@ -1,5 +1,5 @@
 import { useState } from "react";
-import styles from "../components/css/Main.module.css";
+import styles from "./css/Main.module.css";
 import Chart from "./Chart";
 import ITnewsLinkSlider from "./ITnewsLinkSlider";
 import VelogLinkSlider from "./VelogLinkSlider";
@@ -18,10 +18,10 @@ const YearSelect = styled.div`
     margin-right: 1rem;
   }
 `;
-function Home() {
+
+function Community() {
   const selectList = [2022, 2021, 2020, 2019, 2018, 2017];
   const [selected, setSelected] = useState(2022);
-
   const [loading, setLoading] = useState(true);
 
   const [datas, setDatas] = useState([]);
@@ -34,7 +34,7 @@ function Home() {
           JSON.parse(data[0].jsontable)
             .sort((a, b) => b.frequency - a.frequency)
             .filter((ele) => ele.year === selected)
-            .filter((keyword) => keyword.classification === "itnews")
+            .filter((keyword) => keyword.classification === "community")
         );
         setLoading(false);
       });
@@ -103,7 +103,7 @@ function Home() {
         <div style={{ margin: "2rem" }}>
           Selected: <b>{selected}</b>
         </div>
-        <h2 className={styles.title}>IT뉴스</h2>
+        <h2 className={styles.title}>커뮤니티</h2>
         {loading ? (
           <div>loading...</div>
         ) : (
@@ -125,4 +125,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Community;

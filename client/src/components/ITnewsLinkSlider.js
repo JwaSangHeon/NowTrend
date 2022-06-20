@@ -11,7 +11,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import React from "react";
-import styles from "../components/css/LinkSlider.module.css";
+import styles from "./css/LinkSlider.module.css";
 
 const ITnewsLinkSlider = ({ title }) => {
   const imgs = [itnew1, itnew2, itnew3, itnew4, itnew5, itnew6, itnew7];
