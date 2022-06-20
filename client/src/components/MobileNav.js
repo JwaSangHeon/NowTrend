@@ -1,25 +1,35 @@
 import styles from "./css/MobileNav.module.css";
 import { Link } from "react-router-dom";
 
-function MobileNav() {
+function MobileNav({ onClickList }) {
   return (
     <>
       <div className={styles.mobileNav}>
         <ul className={styles.menu}>
           <li>
-            <Link to="/intro">서비스 소개</Link>
+            <Link to="/intro" onClick={onClickList}>
+              서비스 소개
+            </Link>
           </li>
           <li>
-            <Link to="/">종합</Link>
+            <Link to="/" onClick={onClickList}>
+              종합
+            </Link>
           </li>
           <li>
-            <Link to="/community">커뮤니티</Link>
+            <Link to="/community" onClick={onClickList}>
+              커뮤니티
+            </Link>
           </li>
           <li>
-            <Link to="/itnews">IT뉴스</Link>
+            <Link to="/itnews" onClick={onClickList}>
+              IT뉴스
+            </Link>
           </li>
           <li>
-            <Link to="/report">보고서</Link>
+            <Link to="/report" onClick={onClickList}>
+              보고서
+            </Link>
           </li>
         </ul>
       </div>

@@ -10,10 +10,17 @@ const Layout = () => {
   const onClickBtn = () => {
     menuBtns ? setMenuBtns(false) : setMenuBtns(true);
   };
+  const onClickList = () => {
+    setMenuBtns(false);
+  };
   return (
     <div>
       <Header onClickBtn={onClickBtn} />
-      {menuBtns ? <MobileNav /> : <Nav />}
+      {menuBtns ? (
+        <MobileNav onClickList={onClickList} />
+      ) : (
+        <Nav onClickList={onClickList} />
+      )}
       <Outlet />
     </div>
   );
