@@ -64,64 +64,64 @@ const Synonym = () => {
       <MenuTitle>동의어 사전</MenuTitle>
       <WordBox>
         <Word>머신러닝</Word>
-        <ArrowBox>machinelearning</ArrowBox>
+        <ArrowBox>Machinelearning</ArrowBox>
       </WordBox>
       <WordBox>
         <Word>딥러닝</Word>
-        <ArrowBox>deeplearning</ArrowBox>
+        <ArrowBox>Deeplearning</ArrowBox>
       </WordBox>
       <WordBox>
         <Word>운영체제</Word>
         <ArrowBox>
-          operationsystem
+          Operationsystem
           <br />
-          os
+          Os
         </ArrowBox>
       </WordBox>
       <WordBox>
         <Word>컴퓨터구조</Word>
-        <ArrowBox>computerarchitecture</ArrowBox>
+        <ArrowBox>Computerarchitecture</ArrowBox>
       </WordBox>
       <WordBox>
         <Word>사물인터넷</Word>
         <ArrowBox>
-          internetofthings
+          Internetofthings
           <br />
-          iot
+          Iot
         </ArrowBox>
       </WordBox>
       <WordBox>
         <Word>데이터분석</Word>
         <ArrowBox>
-          dataanalytic
+          Dataanalytic
           <br />
-          dataanalytics
+          Dataanalytics
         </ArrowBox>
       </WordBox>
       <WordBox>
         <Word>데이터사이언스</Word>
-        <ArrowBox>datascience</ArrowBox>
+        <ArrowBox>Datascience</ArrowBox>
       </WordBox>
       <WordBox>
         <Word>디지털전환</Word>
         <ArrowBox>
-          digitaltransformation
+          Digitaltransformation
           <br />
-          dx
+          Dx
         </ArrowBox>
       </WordBox>
       <WordBox>
         <Word>메타버스</Word>
-        <ArrowBox>metaverse</ArrowBox>
+        <ArrowBox>Metaverse</ArrowBox>
       </WordBox>
       <WordBox>
         <Word>블록체인</Word>
         <ArrowBox>
-          blockchain
+          Blockchain
           <br />
-          nft
+          NFT
           <br />
-          nonfungibletoken
+          NonFungibleToken
           <br />
           대체불가토큰
           <br />
@@ -129,48 +129,48 @@ const Synonym = () => {
           <br />
           업비트, 비트코인
           <br />
-          bitcoin
+          Bitcoin
           <br />
           이더리움
           <br />
-          ethereum
+          Ethereum
           <br />
           알트코인
           <br />
-          altcoin
+          Altcoin
           <br />
           분산원장
-          <br /> distributedledger
+          <br /> Distributedledger
           <br />
           스마트계약
           <br />
-          smartcontract
+          Smartcontract
           <br />
-          smartcontracts
+          Smartcontracts
           <br /> 분산어플리케이션
           <br />
-          decentralizedapplication
+          Decentralizedapplication
           <br />
-          dapp
+          Dapp
           <br />
           디앱
           <br />
           퍼블릭블록체인
-          <br /> publicblockchain
+          <br /> Publicblockchain
           <br />
           퍼미션리스블록체인
           <br />
-          permissionlessblockchain
+          Permissionlessblockchain
           <br /> 비허가형블록체인
           <br />
           공개형블록체인
           <br />
           프라이빗블록체인
           <br />
-          privateblockchain
+          Privateblockchain
           <br /> 퍼미션드블록체인
           <br />
-          permissionedblockchain
+          Permissionedblockchain
           <br />
           허가형블록체인
           <br /> 폐쇄형블록체인
@@ -179,29 +179,29 @@ const Synonym = () => {
       <WordBox>
         <Word>확장현실</Word>
         <ArrowBox>
-          extendedreality
+          Extendedreality
           <br />
-          xr
+          XR
           <br />
-          virtualreality
+          Virtualreality
           <br />
-          vr
+          VR
           <br />
-          augmentedreality
+          Augmentedreality
           <br />
-          ar
+          AR
           <br />
-          mixedreality
+          Mixedreality
           <br />
-          mr
+          Mr
         </ArrowBox>
       </WordBox>
       <WordBox>
         <Word>네트워크</Word>
         <ArrowBox>
-          network
+          Network
           <br />
-          networks
+          Networks
           <br />
           네트웍스
         </ArrowBox>
@@ -209,9 +209,9 @@ const Synonym = () => {
       <WordBox>
         <Word>클라우드</Word>
         <ArrowBox>
-          cloud
+          Cloud
           <br />
-          cloudcomputing
+          Cloudcomputing
           <br />
           클라우드컴퓨팅
         </ArrowBox>
@@ -219,7 +219,7 @@ const Synonym = () => {
       <WordBox>
         <Word>얼굴인식</Word>
         <ArrowBox>
-          facerecognition
+          Facerecognition
           <br />
           안면인식시스템
         </ArrowBox>
@@ -227,9 +227,9 @@ const Synonym = () => {
       <WordBox>
         <Word>서버리스아키텍쳐</Word>
         <ArrowBox>
-          serverlessarchitecture
+          Serverlessarchitecture
           <br />
-          serverless
+          Serverless
         </ArrowBox>
       </WordBox>
       <WordBox>
@@ -237,7 +237,7 @@ const Synonym = () => {
         <ArrowBox>
           쓰리지
           <br />
-          thirdgeneration
+          Thirdgeneration
         </ArrowBox>
       </WordBox>
       <WordBox>
@@ -245,7 +245,7 @@ const Synonym = () => {
         <ArrowBox>
           포지
           <br />
-          fourthgeneration
+          Fourthgeneration
         </ArrowBox>
       </WordBox>
       <WordBox>
@@ -253,68 +253,86 @@ const Synonym = () => {
         <ArrowBox>
           파이브지
           <br />
-          fifthgeneration
+          Fifthgeneration
         </ArrowBox>
       </WordBox>
       <WordBox>
         <Word>가상화</Word>
-        <ArrowBox>virtualization</ArrowBox>
+        <ArrowBox>Virtualization</ArrowBox>
       </WordBox>
       <WordBox>
         <Word>모바일</Word>
-        <ArrowBox></ArrowBox>
+        <ArrowBox>Mobile</ArrowBox>
       </WordBox>
       <WordBox>
         <Word>마케팅</Word>
-        <ArrowBox></ArrowBox>
+        <ArrowBox>Marketing</ArrowBox>
       </WordBox>
       <WordBox>
         <Word>데브옵스</Word>
-        <ArrowBox></ArrowBox>
+        <ArrowBox>DevOps</ArrowBox>
       </WordBox>
       <WordBox>
         <Word>빅데이터</Word>
-        <ArrowBox></ArrowBox>
+        <ArrowBox>BigData</ArrowBox>
       </WordBox>
       <WordBox>
         <Word>엣지컴퓨팅</Word>
-        <ArrowBox></ArrowBox>
+        <ArrowBox>Edge Computing</ArrowBox>
       </WordBox>
       <WordBox>
         <Word>로봇공학</Word>
-        <ArrowBox></ArrowBox>
+        <ArrowBox>Robotics</ArrowBox>
       </WordBox>
       <WordBox>
         <Word>맞춤형서비스</Word>
-        <ArrowBox></ArrowBox>
+        <ArrowBox>Customized service</ArrowBox>
       </WordBox>
       <WordBox>
         <Word>언택트</Word>
-        <ArrowBox></ArrowBox>
+        <ArrowBox>
+          Untact
+          <br />
+          비대면
+        </ArrowBox>
       </WordBox>
       <WordBox>
         <Word>사이버보안</Word>
-        <ArrowBox></ArrowBox>
+        <ArrowBox>Cyber Security</ArrowBox>
       </WordBox>
       <WordBox>
         <Word>초자동화</Word>
-        <ArrowBox></ArrowBox>
+        <ArrowBox>Super Automation</ArrowBox>
       </WordBox>
       <WordBox>
         <Word>행동인터넷</Word>
-        <ArrowBox></ArrowBox>
+        <ArrowBox>
+          IoB
+          <br />
+          Internet of Behaviors
+        </ArrowBox>
       </WordBox>
       <WordBox>
         <Word>멀티경험</Word>
-        <ArrowBox></ArrowBox>
+        <ArrowBox>
+          다중경험
+          <br />
+          Multi-Experience
+          <br />
+          MX
+        </ArrowBox>
       </WordBox>
       <WordBox>
         <Word>토탈경험</Word>
-        <ArrowBox></ArrowBox>
+        <ArrowBox>
+          Total Experience
+          <br />
+          TX
+        </ArrowBox>
       </WordBox>
       <WordBox>
         <Word>대화형플랫폼</Word>
-        <ArrowBox></ArrowBox>
+        <ArrowBox>Interactive Platform</ArrowBox>
       </WordBox>
       <WordBox>
         <Word>MASA</Word>
@@ -322,11 +340,15 @@ const Synonym = () => {
       </WordBox>
       <WordBox>
         <Word>HTTP</Word>
-        <ArrowBox></ArrowBox>
+        <ArrowBox>
+          하이퍼텍스트 전송 프로토콜
+          <br />
+          Hypertext Transfer Protocol
+        </ArrowBox>
       </WordBox>
       <WordBox>
         <Word>HTTPS</Word>
-        <ArrowBox></ArrowBox>
+        <ArrowBox>Hypertext Transfer Protocol Secure</ArrowBox>
       </WordBox>
       <WordBox>
         <Word>HTML5</Word>
@@ -337,69 +359,68 @@ const Synonym = () => {
         <ArrowBox></ArrowBox>
       </WordBox>
       <WordBox>
-        <Word>인메모리컴퓨팅 </Word>
-        <ArrowBox></ArrowBox>
+        <Word>인메모리컴퓨팅</Word>
+        <ArrowBox>In-Memory computing</ArrowBox>
       </WordBox>
       <WordBox>
-        <Word>3D프린팅 </Word>
-        <ArrowBox></ArrowBox>
+        <Word>3D프린팅</Word>
+        <ArrowBox>
+          3D printing
+          <br />
+          additive manufacturing
+        </ArrowBox>
       </WordBox>
       <WordBox>
-        <Word>통합생태계 </Word>
-        <ArrowBox></ArrowBox>
+        <Word>통합생태계</Word>
+        <ArrowBox>Integrated Ecosystem</ArrowBox>
       </WordBox>
       <WordBox>
         <Word>컴퓨팅에브리웨어</Word>
-        <ArrowBox></ArrowBox>
+        <ArrowBox>
+          Computing EveryWhere
+          <br />
+          어디서나운영
+        </ArrowBox>
       </WordBox>
       <WordBox>
-        <Word>앱스토어 </Word>
-        <ArrowBox></ArrowBox>
+        <Word>앱스토어</Word>
+        <ArrowBox>AppStore</ArrowBox>
       </WordBox>
       <WordBox>
-        <Word>마켓플레이스 </Word>
-        <ArrowBox></ArrowBox>
+        <Word>마켓플레이스</Word>
+        <ArrowBox>marketplace</ArrowBox>
       </WordBox>
       <WordBox>
-        <Word>저전력서버 </Word>
-        <ArrowBox></ArrowBox>
+        <Word>저전력서버</Word>
+        <ArrowBox>Low Power Server</ArrowBox>
       </WordBox>
       <WordBox>
-        <Word>클라우드컴퓨팅 </Word>
-        <ArrowBox></ArrowBox>
+        <Word>클라우드컴퓨팅</Word>
+        <ArrowBox>Cloud Computing</ArrowBox>
       </WordBox>
       <WordBox>
-        <Word>행동인터넷 </Word>
-        <ArrowBox></ArrowBox>
+        <Word>양자컴퓨팅</Word>
+        <ArrowBox>Quantum Computing</ArrowBox>
       </WordBox>
       <WordBox>
-        <Word>어디서나운영 </Word>
-        <ArrowBox></ArrowBox>
+        <Word>증강분석</Word>
+        <ArrowBox>Augmented Analysis</ArrowBox>
       </WordBox>
-      <WordBox>
-        <Word>양자컴퓨팅 </Word>
-        <ArrowBox></ArrowBox>
-      </WordBox>
-      <WordBox>
-        <Word>증강분석 </Word>
-        <ArrowBox></ArrowBox>
-      </WordBox>
-
       <WordBox>
         <Word>자바</Word>
-        <ArrowBox></ArrowBox>
+        <ArrowBox>Java</ArrowBox>
       </WordBox>
       <WordBox>
         <Word>스프링</Word>
-        <ArrowBox></ArrowBox>
+        <ArrowBox>Spring</ArrowBox>
       </WordBox>
       <WordBox>
         <Word>파이썬</Word>
-        <ArrowBox></ArrowBox>
+        <ArrowBox>Python</ArrowBox>
       </WordBox>
       <WordBox>
         <Word>C</Word>
-        <ArrowBox></ArrowBox>
+        <ArrowBox>C언어</ArrowBox>
       </WordBox>
       <WordBox>
         <Word>C++</Word>
@@ -407,23 +428,31 @@ const Synonym = () => {
       </WordBox>
       <WordBox>
         <Word>자바스크립트</Word>
-        <ArrowBox></ArrowBox>
+        <ArrowBox>
+          JavaScript
+          <br />
+          TypeScript
+        </ArrowBox>
       </WordBox>
       <WordBox>
         <Word>오픈소스</Word>
-        <ArrowBox></ArrowBox>
+        <ArrowBox>OpenSource</ArrowBox>
       </WordBox>
       <WordBox>
         <Word>슈퍼컴퓨터</Word>
-        <ArrowBox></ArrowBox>
+        <ArrowBox>SuperComputer</ArrowBox>
       </WordBox>
       <WordBox>
         <Word>그린 IT</Word>
-        <ArrowBox></ArrowBox>
+        <ArrowBox>Green IT</ArrowBox>
       </WordBox>
       <WordBox>
         <Word>데이터베이스</Word>
-        <ArrowBox></ArrowBox>
+        <ArrowBox>
+          DataBase
+          <br />
+          DB
+        </ArrowBox>
       </WordBox>
     </Menu>
   );
