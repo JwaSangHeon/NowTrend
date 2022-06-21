@@ -75,7 +75,7 @@ const Synonym = () => {
         <ArrowBox>
           Operationsystem
           <br />
-          Os
+          OS
         </ArrowBox>
       </WordBox>
       <WordBox>
@@ -87,7 +87,9 @@ const Synonym = () => {
         <ArrowBox>
           Internetofthings
           <br />
-          Iot
+          Internetofthing
+          <br />
+          IOT
         </ArrowBox>
       </WordBox>
       <WordBox>
@@ -107,7 +109,7 @@ const Synonym = () => {
         <ArrowBox>
           Digitaltransformation
           <br />
-          Dx
+          DX
         </ArrowBox>
       </WordBox>
       <WordBox>
@@ -193,7 +195,7 @@ const Synonym = () => {
           <br />
           Mixedreality
           <br />
-          Mr
+          MR
         </ArrowBox>
       </WordBox>
       <WordBox>
@@ -237,7 +239,7 @@ const Synonym = () => {
         <ArrowBox>
           쓰리지
           <br />
-          Thirdgeneration
+          Third generation
         </ArrowBox>
       </WordBox>
       <WordBox>
@@ -245,7 +247,7 @@ const Synonym = () => {
         <ArrowBox>
           포지
           <br />
-          Fourthgeneration
+          Fourth generation
         </ArrowBox>
       </WordBox>
       <WordBox>
@@ -253,7 +255,7 @@ const Synonym = () => {
         <ArrowBox>
           파이브지
           <br />
-          Fifthgeneration
+          Fifth generation
         </ArrowBox>
       </WordBox>
       <WordBox>
@@ -282,7 +284,11 @@ const Synonym = () => {
       </WordBox>
       <WordBox>
         <Word>로봇공학</Word>
-        <ArrowBox>Robotics</ArrowBox>
+        <ArrowBox>
+          Robotics
+          <br />
+          Robotic
+        </ArrowBox>
       </WordBox>
       <WordBox>
         <Word>맞춤형서비스</Word>
@@ -367,7 +373,7 @@ const Synonym = () => {
         <ArrowBox>
           3D printing
           <br />
-          additive manufacturing
+          Additive manufacturing
         </ArrowBox>
       </WordBox>
       <WordBox>
@@ -388,7 +394,7 @@ const Synonym = () => {
       </WordBox>
       <WordBox>
         <Word>마켓플레이스</Word>
-        <ArrowBox>marketplace</ArrowBox>
+        <ArrowBox>Marketplace</ArrowBox>
       </WordBox>
       <WordBox>
         <Word>저전력서버</Word>
@@ -412,7 +418,11 @@ const Synonym = () => {
       </WordBox>
       <WordBox>
         <Word>스프링</Word>
-        <ArrowBox>Spring</ArrowBox>
+        <ArrowBox>
+          Spring
+          <br />
+          Spring Boot
+        </ArrowBox>
       </WordBox>
       <WordBox>
         <Word>파이썬</Word>
