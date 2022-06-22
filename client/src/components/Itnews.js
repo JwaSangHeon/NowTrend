@@ -1,6 +1,7 @@
 import { useState } from "react";
 import styles from "./css/Main.module.css";
 import Chart from "./Chart";
+import UserData from "../sampleData.json";
 import ITnewsLinkSlider from "./ITnewsLinkSlider";
 import VelogLinkSlider from "./VelogLinkSlider";
 import TechBlogLinkSlider from "./TechBlogLinkSlider";
@@ -27,17 +28,22 @@ function Home() {
   const [datas, setDatas] = useState([]);
 
   useEffect(() => {
-    fetch(`https://storageforstatejson.herokuapp.com/router/output`)
-      .then((res) => res.json())
-      .then((data) => {
-        setDatas(
-          JSON.parse(data[0].jsontable)
-            .sort((a, b) => b.frequency - a.frequency)
-            .filter((ele) => ele.year === selected)
-            .filter((keyword) => keyword.classification === "itnews")
-        );
-        setLoading(false);
-      });
+    // fetch(`https://storageforstatejson.herokuapp.com/router/output`)
+    //   .then((res) => res.json())
+    //   .then((data) => {
+    //     setDatas(
+    //       JSON.parse(data[0].jsontable)
+    //         .sort((a, b) => b.frequency - a.frequency)
+    //         .filter((ele) => ele.year === selected)
+    //         .filter((keyword) => keyword.classification === "itnews")
+    //     );
+    setDatas(
+      UserData.sort((a, b) => b.frequency - a.frequency).filter(
+        (ele) => ele.year === selected
+      )
+    );
+    setLoading(false);
+    // });
   }, [selected]);
 
   const userData = {

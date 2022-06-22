@@ -1,314 +1,182 @@
 [
   {
     "year": 2022,
-    "word": "블록체인",
-    "classification": "itnews",
-    "frequency": 123
+    "word": "머신러닝",
+    "classification": "community",
+    "frequency": 453
+  },
+  {
+    "year": 2022,
+    "word": "딥러닝",
+    "classification": "community",
+    "frequency": 156
+  },
+  {
+    "year": 2022,
+    "word": "운영체제",
+    "classification": "community",
+    "frequency": 26
+  },
+  {
+    "year": 2022,
+    "word": "컴퓨터구조",
+    "classification": "community",
+    "frequency": 5
+  },
+  {
+    "year": 2022,
+    "word": "사물인터넷",
+    "classification": "community",
+    "frequency": 3
+  },
+  {
+    "year": 2022,
+    "word": "데이터분석",
+    "classification": "community",
+    "frequency": 14
+  },
+  {
+    "year": 2022,
+    "word": "데이터사이언스",
+    "classification": "community",
+    "frequency": 1
+  },
+  {
+    "year": 2022,
+    "word": "디지털전환",
+    "classification": "community",
+    "frequency": 89
+  },
+  {
+    "year": 2022,
+    "word": "메타버스",
+    "classification": "community",
+    "frequency": 38
   },
   {
     "year": 2022,
     "word": "블록체인",
-    "classification": "report",
-    "frequency": 123
+    "classification": "community",
+    "frequency": 14
   },
   {
     "year": 2022,
-    "word": "node",
-    "classification": "report",
-    "frequency": 1235
+    "word": "확장현실",
+    "classification": "community",
+    "frequency": 10
   },
   {
     "year": 2022,
-    "word": "react",
-    "classification": "report",
-    "frequency": 53
+    "word": "네트워크",
+    "classification": "community",
+    "frequency": 38
   },
   {
     "year": 2022,
-    "word": "c++",
-    "classification": "report",
-    "frequency": 653
+    "word": "클라우드",
+    "classification": "community",
+    "frequency": 103
   },
   {
     "year": 2022,
-    "word": "블록체인",
-    "classification": "report",
-    "frequency": 123
+    "word": "서버리스아키텍쳐",
+    "classification": "community",
+    "frequency": 1
+  },
+  {
+    "year": 2022,
+    "word": "5G",
+    "classification": "community",
+    "frequency": 1
+  },
+  {
+    "year": 2022,
+    "word": "가상화",
+    "classification": "community",
+    "frequency": 19
+  },
+  {
+    "year": 2022,
+    "word": "모바일",
+    "classification": "community",
+    "frequency": 35
+  },
+  {
+    "year": 2022,
+    "word": "데브옵스",
+    "classification": "community",
+    "frequency": 2
+  },
+  {
+    "year": 2022,
+    "word": "빅데이터",
+    "classification": "community",
+    "frequency": 1
+  },
+  {
+    "year": 2022,
+    "word": "엣지컴퓨팅",
+    "classification": "community",
+    "frequency": 0
+  },
+  {
+    "year": 2022,
+    "word": "언택트",
+    "classification": "community",
+    "frequency": 0
+  },
+  {
+    "year": 2022,
+    "word": "맞춤형서비스",
+    "classification": "community",
+    "frequency": 1
+  },
+  {
+    "year": 2022,
+    "word": "앱스토어",
+    "classification": "community",
+    "frequency": 0
+  },
+  {
+    "year": 2022,
+    "word": "통합생태계",
+    "classification": "community",
+    "frequency": 0
+  },
+  {
+    "year": 2022,
+    "word": "자바",
+    "classification": "community",
+    "frequency": 368
+  },
+  {
+    "year": 2022,
+    "word": "스프링",
+    "classification": "community",
+    "frequency": 54
   },
   {
     "year": 2022,
     "word": "파이썬",
     "classification": "community",
-    "frequency": 123
+    "frequency": 124
   },
   {
     "year": 2022,
-    "word": "node",
+    "word": "오픈소스",
     "classification": "community",
-    "frequency": 62
+    "frequency": 11
   },
   {
     "year": 2022,
-    "word": "c#",
+    "word": "자바스크립트",
     "classification": "community",
-    "frequency": 133
+    "frequency": 126
   },
   {
     "year": 2022,
-    "word": "블록체인",
-    "classification": "itnews",
-    "frequency": 123
-  },
-  {
-    "year": 2022,
-    "word": "블록체인",
-    "classification": "itnews",
-    "frequency": 123
-  },
-  { "year": 2021, "word": "NFT", "classification": "velog", "frequency": 78 },
-  {
-    "year": 2020,
-    "word": "메타버스",
+    "word": "데이터베이스",
     "classification": "community",
-    "frequency": 843
-  },
-  {
-    "year": 2019,
-    "word": "React",
-    "classification": "report",
-    "frequency": 1100
-  },
-  { "year": 2022, "word": "AI", "classification": "itnews", "frequency": 983 },
-  {
-    "year": 2017,
-    "word": "오토메틱시스템",
-    "classification": "itnews",
-    "frequency": 32
-  },
-  { "year": 2018, "word": "VR", "classification": "itnews", "frequency": 404 },
-  {
-    "year": 2018,
-    "word": "Spring",
-    "classification": "report",
-    "frequency": 932
-  },
-  {
-    "year": 2019,
-    "word": "Python",
-    "classification": "report",
-    "frequency": 109
-  },
-  {
-    "year": 2019,
-    "word": "Typescript",
-    "classification": "community",
-    "frequency": 600
-  },
-  {
-    "year": 2021,
-    "word": "Node.js",
-    "classification": "community",
-    "frequency": 213
-  },
-  {
-    "year": 2019,
-    "word": "Typescript",
-    "classification": "velog",
-    "frequency": 564
-  },
-  {
-    "year": 2018,
-    "word": "Node.js",
-    "classification": "velog",
-    "frequency": 345
-  },
-  {
-    "year": 2022,
-    "word": "블록체인",
-    "classification": "itnews",
-    "frequency": 123
-  },
-  { "year": 2021, "word": "NFT", "classification": "velog", "frequency": 453 },
-  {
-    "year": 2020,
-    "word": "메타버스",
-    "classification": "community",
-    "frequency": 765
-  },
-  {
-    "year": 2019,
-    "word": "React",
-    "classification": "report",
-    "frequency": 567
-  },
-  { "year": 2022, "word": "AI", "classification": "itnews", "frequency": 234 },
-  {
-    "year": 2017,
-    "word": "오토메틱시스템",
-    "classification": "itnews",
-    "frequency": 57
-  },
-  { "year": 2021, "word": "VR", "classification": "itnews", "frequency": 402 },
-  {
-    "year": 2018,
-    "word": "Spring",
-    "classification": "report",
-    "frequency": 902
-  },
-  {
-    "year": 2017,
-    "word": "Python",
-    "classification": "report",
-    "frequency": 1000
-  },
-  {
-    "year": 2019,
-    "word": "Typescript",
-    "classification": "community",
-    "frequency": 600
-  },
-  {
-    "year": 2021,
-    "word": "Node.js",
-    "classification": "community",
-    "frequency": 409
-  },
-  {
-    "year": 2019,
-    "word": "Typescript",
-    "classification": "velog",
-    "frequency": 600
-  },
-  {
-    "year": 2018,
-    "word": "Node.js",
-    "classification": "velog",
-    "frequency": 409
-  },
-  {
-    "year": 2022,
-    "word": "블록체인",
-    "classification": "itnews",
-    "frequency": 302
-  },
-  { "year": 2021, "word": "NFT", "classification": "velog", "frequency": 116 },
-  {
-    "year": 2020,
-    "word": "메타버스",
-    "classification": "community",
-    "frequency": 272
-  },
-  {
-    "year": 2019,
-    "word": "React",
-    "classification": "report",
-    "frequency": 1100
-  },
-  { "year": 2022, "word": "AI", "classification": "itnews", "frequency": 700 },
-  {
-    "year": 2017,
-    "word": "오토메틱시스템",
-    "classification": "itnews",
-    "frequency": 57
-  },
-  { "year": 2021, "word": "VR", "classification": "itnews", "frequency": 402 },
-  {
-    "year": 2018,
-    "word": "Spring",
-    "classification": "report",
-    "frequency": 902
-  },
-  {
-    "year": 2017,
-    "word": "Python",
-    "classification": "report",
-    "frequency": 1000
-  },
-  {
-    "year": 2019,
-    "word": "Typescript",
-    "classification": "community",
-    "frequency": 600
-  },
-  {
-    "year": 2021,
-    "word": "Node.js",
-    "classification": "community",
-    "frequency": 409
-  },
-  {
-    "year": 2019,
-    "word": "Typescript",
-    "classification": "velog",
-    "frequency": 600
-  },
-  {
-    "year": 2018,
-    "word": "Node.js",
-    "classification": "velog",
-    "frequency": 409
-  },
-  {
-    "year": 2022,
-    "word": "블록체인",
-    "classification": "itnews",
-    "frequency": 302
-  },
-  { "year": 2021, "word": "NFT", "classification": "velog", "frequency": 116 },
-  {
-    "year": 2020,
-    "word": "메타버스",
-    "classification": "community",
-    "frequency": 272
-  },
-  {
-    "year": 2019,
-    "word": "React",
-    "classification": "report",
-    "frequency": 1100
-  },
-  { "year": 2022, "word": "AI", "classification": "itnews", "frequency": 700 },
-  {
-    "year": 2017,
-    "word": "오토메틱시스템",
-    "classification": "itnews",
-    "frequency": 57
-  },
-  { "year": 2021, "word": "VR", "classification": "itnews", "frequency": 402 },
-  {
-    "year": 2018,
-    "word": "Spring",
-    "classification": "report",
-    "frequency": 902
-  },
-  {
-    "year": 2017,
-    "word": "Python",
-    "classification": "report",
-    "frequency": 1000
-  },
-  {
-    "year": 2019,
-    "word": "Typescript",
-    "classification": "community",
-    "frequency": 600
-  },
-  {
-    "year": 2021,
-    "word": "Node.js",
-    "classification": "community",
-    "frequency": 409
-  },
-  {
-    "year": 2019,
-    "word": "Typescript",
-    "classification": "velog",
-    "frequency": 600
-  },
-  {
-    "year": 2018,
-    "word": "Node.js",
-    "classification": "velog",
-    "frequency": 409
+    "frequency": 175
   }
 ]
