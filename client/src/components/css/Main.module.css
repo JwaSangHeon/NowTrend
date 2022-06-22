@@ -19,7 +19,7 @@ body {
   font-size: 1.5rem;
 }
 .sliderContainer {
-  width: 63%;
+  width: 62%;
   margin: 30px auto;
   display: flex;
   flex-wrap: wrap;
